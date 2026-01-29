@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <h2><u>Gym Registration Form</u></h2>
+        <form>
+
+            <h3><u><i>1:Presonal Information:</i></u></h3>
+
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" required> <br><br>
+
+            <label for="pass">Enter Password:</label>
+            <input type="password" id="pass" placeholder="Enter Password" required><br><br>
+
+            <label for="address">Enter Your Address:</label>
+            <textarea id="address" placeholder="Enter Address" required></textarea><br><br>
+
+            <label for="DOB">Enter Your DOB:</label>
+            <input type="date" id="DOB" required><br><br>
+
+            <label for="age">Enter Your Age: </label>
+            <input type="number" id="age" placeholder="Enter Age" required><br><br>
+            
+            <label>Choose Gender:</label><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender"><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender"><br>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender"><br><br>
+
+            <label for="mobile">Enter Your Mobile no:</label>
+            <input type="tel" id="mobile" placeholder="Enter Mobile:" required><br><br>
+
+            <label for="email">Enter Your E-mail Address</label>
+            <input type="email" id="email" placeholder="Enter Mail" required><br><br>
+
+            <h3><u><i>2:Health Information:</i></u></h3>
+
+            <label for="weight">Enter Your weight:</label>
+            <input type="number" id="weight" placeholder="Enter weight" required><br><br>
+
+            <label for="height">Enter Your Height:</label>
+            <input type="number" id="height" placeholder="Enter Height" required><br><br>
+
+            <label for="blood">Enter Blood Group:</label>
+            <input type="text" id="blood" placeholder="Enter Blood Group" required><br><br>
+
+            <label for="medical">Medical Condition(if Any)</label>
+            <textarea rows="1" cols="7" id="medical"></textarea><br><br>
+
+            <label for="goal">Fitness Goal:</label>
+            <select id="goal">
+                <option>Select Goal</option>
+                <option>Weight Loss</option>
+                <option>Muscle Gain</option>
+                <option>Fitness</option>
+            </select><br><br>
+
+            <h3><u><i>3:Membership Details</i></u></h3>
+
+            <label for="Membershiptype">Memberahip Type:</label>
+            <select id="Membershiptype">
+                <option>Enter Memberahip Type</option>
+                <option>Monthly</option>
+                <option>Quarterly</option>
+                <option>Yearly</option>
+            </select><br><br>
+
+            <label>Preffered Time:</label><br>
+            <label for="mrng">Morning</label>
+            <input type="checkbox" id="mrng"><br>
+            <label for="noon">Afternoon</label>
+            <input type="checkbox" id="noon"><br>
+            <label for="evening">Evening</label>
+            <input type="checkbox" id="evening"><br><br>
+
+            <label>Trainer Required</label><br>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="trainer"><br>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="trainer"><br><br>
+
+            <label>Enter Your State Name For selection of Branches:</label>
+            <input list="techOptions" placeholder="Enter State">
+            <datalist id="techOptions">
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+            </datalist><br><br>
+            <input type="submit" value="Submit">
+            <input type="button" value="clear">
+        </form><hr>
+        <h3><u>Thanking You For Choosing Us..!!!!</u></h3>
+    </body>
+</html>
